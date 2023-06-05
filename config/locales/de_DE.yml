@@ -70,6 +70,11 @@ de_DE:
         preferred_unit_from_list: "Berechnung (Einheit):"
         preferred_per_unit: "Berechnung (Pro Einheit):"
     errors:
+      messages:
+        too_short:
+          one: ist zu kurz (weniger als %{count} Zeichen)
+          other: ist zu kurz (weniger als %{count} Zeichen)
+        confirmation: stimmt nicht mit %{attribute} überein
       models:
         enterprise_fee:
           inherit_tax_requires_per_item_calculator: "Um die Steuerkategorie des Produkts zu übernehmen, muss in der Spalte \"Berechnung\" eine Auswahl mit Zusatz \"pro Artikel\" verwendet werden."
